@@ -1,0 +1,12 @@
+
+  {
+    "name": "TestName",
+    "githubUsername": "User!",
+    "score": 10,
+    "mission": "Jest",
+    "stacks": [
+      "python",
+      "R",
+      "Altair"
+    ]
+  }

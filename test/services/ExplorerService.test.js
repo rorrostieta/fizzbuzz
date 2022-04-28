@@ -13,4 +13,12 @@ describe('Filter and mapping operations', () => {
     const test = explorerService.getAmountOfExplorersByMission(explorers, 'node')
     expect(test).toBe(10)
   });
+
+  test('3. Get usernames by Mission', () => {
+    const explorers = reader.readJsonFile('./data/explorers.json')
+    const test = explorerService.getExplorersUsernamesByMission(explorers, 'node')
+    expect(test).toContain('ajolonauta4')
+    expect(test).toContain('ajolonauta15')
+    expect(test).not.toContain('ajolonauta10')
+  });
 });

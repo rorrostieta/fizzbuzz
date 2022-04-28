@@ -5,3 +5,4 @@ We need to optimize the code in order to make it function smoothly.
 
 ## Here is a checklist of what is complete
 ✅ Reader.js created and tested
+✅ ExplorerService.js created and tested

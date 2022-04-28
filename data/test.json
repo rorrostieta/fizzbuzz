@@ -1,12 +1,46 @@
-
+[
   {
-    "name": "TestName",
+    "name": "TestName0",
     "githubUsername": "User!",
-    "score": 10,
-    "mission": "Jest",
+    "score": 3,
+    "mission": "node",
+    "stacks": [
+      "python",
+      "R",
+      "Altair"
+    ]
+  },
+  {
+    "name": "TestName1",
+    "githubUsername": "User!",
+    "score": 5,
+    "mission": "node",
+    "stacks": [
+      "python",
+      "R",
+      "Altair"
+    ]
+  },
+  {
+    "name": "TestNam2",
+    "githubUsername": "User!",
+    "score": 15,
+    "mission": "node",
+    "stacks": [
+      "python",
+      "R",
+      "Altair"
+    ]
+  },
+  {
+    "name": "TestName3",
+    "githubUsername": "User!",
+    "score": 4,
+    "mission": "node",
     "stacks": [
       "python",
       "R",
       "Altair"
     ]
   }
+]

@@ -8,9 +8,9 @@ describe('Filter and mapping operations', () => {
     expect(test[0].name).toBe('Woopa1')
   });
 
-  test('2. Get amount of explorers by Mission', () => {
+  test('2. Get amount by Mission', () => {
     const explorers = reader.readJsonFile('./data/explorers.json')
-    const test = explorerService.filterByMission(explorers, 'node')
-    expect(test.length).toBe(10)
+    const test = explorerService.getAmountOfExplorersByMission(explorers, 'node')
+    expect(test).toBe(10)
   });
 });

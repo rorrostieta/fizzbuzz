@@ -10,4 +10,5 @@ We need to optimize the code in order to make it function smoothly.
 ✅ FizzBuzzService.js created and tested
 
 ### API Creation
-✅ Server.js created
+✅ Server.js created<br>
+✅ API FizzBuzz functionality created

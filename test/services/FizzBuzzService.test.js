@@ -12,8 +12,8 @@ describe("FizzBuzz modifier testing", () => {
     });
 
     test("Fizz Buzz Number Functionality", () => {
-        const number = 15
-        const test = fizzBuzzService.applyValidationInNumber(number)
-        expect(test).toBe('FIZZBUZZ')
+        const number = 15;
+        const test = fizzBuzzService.applyValidationInNumber(number);
+        expect(test).toBe("FIZZBUZZ");
     });
 });

@@ -14,6 +14,6 @@ describe('Test for the ExplorerController module', () => {
 
   test('3. Get Explorers Amount By Mission', () => {
     const test = explorerController.getExplorersAmountByMission('node')
-    expect(test).toContain('9')
+    expect(test).toBe(10)
   });
 });

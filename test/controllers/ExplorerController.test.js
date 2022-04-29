@@ -16,4 +16,9 @@ describe("Test for the ExplorerController module", () => {
         const test = explorerController.getExplorersAmountByMission("node");
         expect(test).toBe(10);
     });
+
+    test("4. Get Number Validation of FizzBuzzService", () => {
+        const test = explorerController.getValidationInNumber(30)
+        expect(test).toBe('FIZZBUZZ')
+    });
 });

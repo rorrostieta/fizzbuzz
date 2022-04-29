@@ -10,4 +10,10 @@ describe("FizzBuzz modifier testing", () => {
         expect(test[2].trick).toBe("FIZZBUZZ");
         expect(test[3].trick).toBe(4);
     });
+
+    test("Fizz Buzz Number Functionality", () => {
+        const number = 15
+        const test = fizzBuzzService.applyValidationInNumber(number)
+        expect(test).toBe('FIZZBUZZ')
+    });
 });

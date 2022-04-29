@@ -1,5 +1,5 @@
-const reader = require("./../../app/module/Reader");
-const explorerService = require("./../../app/services/ExplorerService");
+const reader = require("./../../lib/utils/Reader");
+const explorerService = require("./../../lib/services/ExplorerService");
 
 describe("Filter and mapping operations", () => {
     test("1. Filter by Mission", () => {

@@ -1,5 +1,5 @@
-const reader = require("./../../app/module/Reader");
-const fizzBuzzService = require("./../../app/services/FizzBuzzService");
+const reader = require("./../../lib/utils/Reader");
+const fizzBuzzService = require("./../../lib/services/FizzBuzzService");
 
 describe("FizzBuzz modifier testing", () => {
     test("Validating Fizz Buzz Functionality ", () => {

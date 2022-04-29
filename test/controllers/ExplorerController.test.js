@@ -11,4 +11,9 @@ describe('Test for the ExplorerController module', () => {
     expect(test).toContain('ajolonauta1')
     expect(test).not.toContain('ajolonauta9')
   });
+
+  test('3. Get Explorers Amount By Mission', () => {
+    const test = explorerController.getExplorersAmountByMission('node')
+    expect(test).toContain('9')
+  });
 });

@@ -6,6 +6,12 @@ describe("Test for the ExplorerController module", () => {
         expect(test[0].name).toBe("Woopa1");
     });
 
+    test("1.1 Get Explorers By Mission (name string)", () => {
+        const test = explorerController.getExplorersByMissionStr("node");
+        console.log(test)
+        expect(test).toMatch(/ Woopa1, Woopa2, Woopa3/);
+    });
+
     test("2. Get Explorers Usrname By Mission", () => {
         const test = explorerController.getExplorersUsernamesByMission("node");
         expect(test).toContain("ajolonauta1");
